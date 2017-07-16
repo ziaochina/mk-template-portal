@@ -11,6 +11,6 @@ export default {
 	load: (cb) => {
 		require.ensure([], require => {
 			cb(require('./component'), require('./action'), require('./reducer'))
-		}, "app2")
+		}, "mk-template-portal-app2")
 	}
 }
